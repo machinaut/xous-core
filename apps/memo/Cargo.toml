@@ -1,0 +1,32 @@
+[package]
+name = "memo"
+version = "0.1.0"
+authors = ["aray <a@machinaut.com>"]
+edition = "2021"
+description = "Voice Memo"
+
+# Dependency versions enforced by Cargo.lock.
+[dependencies]
+codec = {path = "../../services/codec"}
+com = {path = "../../services/com"} # for the gyro read
+content-plugin-api = {path = "../../services/content-plugin-api"} # all content canvas providers must provide this API
+gam = {path = "../../services/gam" }
+graphics-server = {path = "../../services/graphics-server" }
+ime-plugin-api = {path = "../../services/ime-plugin-api"}
+ime-plugin-shell = {path = "../../services/ime-plugin-shell"}
+llio = {path = "../../services/llio"}
+locales = {path = "../../locales"}
+log = "0.4.14"
+log-server = { path = "../../services/log-server" }
+modals = {path = "../../services/modals"}
+num-derive = {version = "0.3.3", default-features = false}
+num-traits = {version = "0.2.14", default-features = false}
+ticktimer-server = { path = "../../services/ticktimer-server" }
+trng = {path = "../../services/trng"}
+tts-frontend = {path="../../services/tts"}
+xous = { path = "../../xous-rs" }
+xous-ipc = { path = "../../xous-ipc" }
+xous-names = { path = "../../services/xous-names" }
+
+[features]
+default = []

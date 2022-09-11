@@ -74,6 +74,7 @@ members = [
   "apps/repl",
   "apps/vault",
   "apps/vault/tools/vaultbackup-rs",
+  "apps/memo",
   "services/libstd-test",
   "services/ffi-test",
   "services/tts",
@@ -139,6 +140,7 @@ branch="main"
 path = "imports/getrandom"
 
 [patch.crates-io.ring]
-git="https://github.com/betrusted-io/ring-xous"
-rev="50c73bb898dd1e8bffe040afd7709962e83d3300" # use the commitref because we're still updating the branch
+#git="https://github.com/betrusted-io/ring-xous"
+#rev="50c73bb898dd1e8bffe040afd7709962e83d3300" # use the commitref because we're still updating the branch
 #branch="0.16.20-cleanup"
+path="../ring-xous"
