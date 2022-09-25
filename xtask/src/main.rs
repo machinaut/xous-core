@@ -87,7 +87,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     ];
     let app_pkgs = [
         // "standard" demo apps
-        "ball", "repl",
+        "ball", "repl", "memo",
     ];
     let benchmark_pkgs = [
         "benchmark",

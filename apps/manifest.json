@@ -43,5 +43,16 @@
                 "en-tts": "Basic REPL demo"
             }
         }
+    },
+    "memo": {
+        "context_name": "Voice Memo",
+        "menu_name": {
+            "appmenu.app_name": {
+                "en": "Voice Memo",
+                "ja": "音声録音",
+                "zh": "錄音",
+                "en-tts": "Voice Memo"
+            }
+        }
     }
 }
